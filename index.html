@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Room Interior Design</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Sky -->
+      <a-sky src="wall.jpeg"></a-sky>
+
+     
+
+      <!-- Floor -->
+      <a-plane position="0 0 -5" rotation="-90 0 0" width="10" height="10" color="#CCCCCC"></a-plane>
+
+      <!-- Bed -->
+      <a-box position="-2 0 -3" width="2" height="0.2" depth="1" color="#8B4513"></a-box>
+      <a-box position="-2 0 -2" width="2" height="0.2" depth="1" color="#8B4513"></a-box>
+      <a-box position="-2 0 -1" width="2" height="0.2" depth="1" color="#8B4513"></a-box>
+      <a-box position="-2 0 0" width="2" height="0.2" depth="1" color="#8B4513"></a-box>
+      <a-box position="-2 0.25 0.5" width="2" height="0.2" depth="1" color="#8B4513"></a-box>
+      <a-box position="2 0.25 0.5" width="2" height="0.2" depth="1" color="#8B4513"></a-box>
+
+      <!-- Study Table -->
+      <a-box position="2 0 -3" width="2" height="0.2" depth="1" color="#A9A9A9"></a-box>
+      <a-box position="2 0 -2" width="2" height="0.2" depth="1" color="#A9A9A9"></a-box>
+      <a-box position="2 0 -1" width="2" height="0.2" depth="1" color="#A9A9A9"></a-box>
+      <a-box position="2 0 0" width="2" height="0.2" depth="1" color="#A9A9A9"></a-box>
+
+      <!-- Bathroom Door -->
+      <a-box position="0 0 -4.5" width="0.1" height="2" depth="1" color="#808080"></a-box>
+
+      <!-- Window -->
+      <a-plane position="0 2 -5" rotation="0 0 0" width="4" height="2" color="#ADD8E6"></a-plane>
+
+      <!-- Light -->
+      <a-light type="point" position="0 3 -4" intensity="0.8" color="#FFFFFF"></a-light>
+    </a-scene>
+  </body>
+</html>
